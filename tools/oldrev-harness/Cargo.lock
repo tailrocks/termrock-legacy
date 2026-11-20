@@ -810,7 +810,7 @@ dependencies = [
  "serde",
  "serde_json",
  "termrock 0.11.0",
- "termrock 0.11.0 (git+https://github.com/tailrocks/termrock.git?rev=5ff94ee117fd4a1b72fdd0d1b1847815055a93ac)",
+ "termrock 0.11.0 (git+https://github.com/tailrocks/termrock-legacy.git?rev=5ff94ee117fd4a1b72fdd0d1b1847815055a93ac)",
  "termrock-raster",
 ]
 
@@ -1504,7 +1504,7 @@ dependencies = [
 [[package]]
 name = "termrock"
 version = "0.11.0"
-source = "git+https://github.com/tailrocks/termrock.git?rev=5ff94ee117fd4a1b72fdd0d1b1847815055a93ac#5ff94ee117fd4a1b72fdd0d1b1847815055a93ac"
+source = "git+https://github.com/tailrocks/termrock-legacy.git?rev=5ff94ee117fd4a1b72fdd0d1b1847815055a93ac#5ff94ee117fd4a1b72fdd0d1b1847815055a93ac"
 dependencies = [
  "anstyle-parse",
  "base64 0.22.1",

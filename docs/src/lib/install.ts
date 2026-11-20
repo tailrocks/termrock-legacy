@@ -1,4 +1,4 @@
-export const TERMROCK_GIT_URL = 'https://github.com/tailrocks/termrock.git'
+export const TERMROCK_GIT_URL = 'https://github.com/tailrocks/termrock-legacy.git'
 export const TERMROCK_REVIEWED_REVISION =
   '5283c2acf9154d0cfcd37b1ffe821c00faf90ea2'
 export const TERMROCK_INSTALL_COMMAND =

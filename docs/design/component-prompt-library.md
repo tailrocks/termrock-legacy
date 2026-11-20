@@ -1,6 +1,6 @@
 # TermRock Complete Component Prompt Library
 
-Repository: `https://github.com/tailrocks/termrock`
+Repository: `https://github.com/tailrocks/termrock-legacy`
 
 ## How to use this library
 
@@ -19,7 +19,7 @@ Priorities:
 
 ```text
 You are working directly on TermRock:
-https://github.com/tailrocks/termrock
+https://github.com/tailrocks/termrock-legacy
 
 Mission:
 Make TermRock the shadcn/ui equivalent for TUI and CLI applications: a source-owned, terminal-native design system with Radix-level interaction rigor, excellent Rust APIs, exceptional visual quality, and production-grade behavior on top of Ratatui.

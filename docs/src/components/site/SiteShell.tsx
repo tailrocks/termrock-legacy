@@ -8,7 +8,7 @@ import {
 } from 'fumadocs-ui/layouts/shared/slots/search-trigger'
 import { ThemeSwitch } from 'fumadocs-ui/layouts/shared/slots/theme-switch'
 
-const GITHUB_URL = 'https://github.com/tailrocks/termrock'
+const GITHUB_URL = 'https://github.com/tailrocks/termrock-legacy'
 
 function MenuGlyph() {
   return (

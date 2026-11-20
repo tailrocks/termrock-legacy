@@ -1,7 +1,7 @@
 # Phase 3 proposal A — junie-tui's exact visual system as TermRock's only rendering
 
 Date 2026-09-02. Branch `experimental/component-catalog-docs-2026-09-02`.
-Target `/Users/donbeave/Projects/tailrocks/termrock`. Reference
+Target `/Users/donbeave/Projects/tailrocks/termrock-legacy`. Reference
 `/Users/donbeave/Projects/terminal-components-claude` (`junie-tui`), SoT
 `src/theme.rs` + `DESIGN.md` (Colors / Pairings and states / Layout rhythm).
 Read-only on both repos; this file is the only write.

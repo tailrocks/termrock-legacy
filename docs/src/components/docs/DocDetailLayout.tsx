@@ -104,7 +104,7 @@ function Composition({ entry }: Readonly<{ entry: DocCatalogEntry }>): ReactElem
 }
 
 function Reference({ entry }: Readonly<{ entry: DocCatalogEntry }>): ReactElement {
-  const sourceUrl = `https://github.com/tailrocks/termrock/blob/main/${entry.source}`
+  const sourceUrl = `https://github.com/tailrocks/termrock-legacy/blob/main/${entry.source}`
   return (
     <div className="doc-detail-reference-grid">
       <div>

@@ -40,7 +40,7 @@ shapes, and OSC 52 clipboard writes. **Runtime progressive enhancement** is
 reduction. One glyph vocabulary (junie Unicode). No Ascii profile.
 
 ```toml
-termrock = { git = "https://github.com/tailrocks/termrock.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2" }
+termrock = { git = "https://github.com/tailrocks/termrock-legacy.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2" }
 ```
 
 Default features are empty. Enable `crossterm` only for its event, backend, and scoped-session adapters.

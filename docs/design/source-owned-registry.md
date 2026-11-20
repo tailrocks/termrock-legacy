@@ -121,7 +121,7 @@ TOML equivalent is allowed; **canonical digest uses JSON with sorted keys** (see
   "description": "Flagship multi-pane agent shell: transcript, rail, prompt, approval.",
   "license": "Apache-2.0",
   "provenance": {
-    "origin": "https://github.com/tailrocks/termrock",
+    "origin": "https://github.com/tailrocks/termrock-legacy",
     "path": "registry/termrock/blocks/agent-workbench",
     "revision": "FULL_GIT_SHA",
     "spdx": "Apache-2.0",
@@ -133,7 +133,7 @@ TOML equivalent is allowed; **canonical digest uses JSON with sorted keys** (see
     "min_version": "0.12.0",
     "features": ["crossterm"],
     "git": {
-      "url": "https://github.com/tailrocks/termrock.git",
+      "url": "https://github.com/tailrocks/termrock-legacy.git",
       "rev_range_hint": ">= a230ab8"
     }
   },
@@ -266,7 +266,7 @@ fixtures_root = "tests/ui_fixtures"
 [kernel]
 # Mirror Cargo pin; CLI validates lock vs Cargo.toml
 source = "git"
-git = "https://github.com/tailrocks/termrock.git"
+git = "https://github.com/tailrocks/termrock-legacy.git"
 rev = "a230ab8deadbeef…"          # exact pin preferred
 # version = "0.12.0"             # when crates.io exists
 features = ["crossterm"]

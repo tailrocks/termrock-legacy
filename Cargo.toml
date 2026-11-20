@@ -15,7 +15,7 @@ edition = "2024"
 # Track latest stable (forward-only; no lagging MSRV policy).
 rust-version = "1.97.1"
 license = "Apache-2.0"
-repository = "https://github.com/tailrocks/termrock"
+repository = "https://github.com/tailrocks/termrock-legacy"
 
 [workspace.dependencies]
 anstyle-parse = "1.0.0"

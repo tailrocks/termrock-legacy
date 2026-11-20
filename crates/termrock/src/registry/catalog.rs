@@ -10,7 +10,7 @@ use super::contract::{
 
 fn prov(path: &str) -> Provenance {
     Provenance {
-        origin: "https://github.com/tailrocks/termrock".into(),
+        origin: "https://github.com/tailrocks/termrock-legacy".into(),
         path: path.into(),
         revision: "main".into(),
         spdx: "Apache-2.0".into(),
