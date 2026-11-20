@@ -29,7 +29,7 @@ type DocsSiteLayoutOptions = SiteLayoutOptions & {
 const sourceLink = {
   type: 'button',
   text: 'GitHub',
-  url: 'https://github.com/tailrocks/termrock',
+  url: 'https://github.com/tailrocks/termrock-legacy',
   external: true,
   secondary: true,
 } as const

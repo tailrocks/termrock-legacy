@@ -1,6 +1,6 @@
 # TermRock inventory — junie-tui design-fidelity campaign
 
-Scope: `/Users/donbeave/Projects/tailrocks/termrock` at branch
+Scope: `/Users/donbeave/Projects/tailrocks/termrock-legacy` at branch
 `experimental/component-catalog-docs-2026-09-02`, HEAD `f51d0ba8`.
 Inventory only — no design decisions.
 

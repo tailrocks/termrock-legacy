@@ -10,7 +10,7 @@ TermRock is pre-stable. Pin an exact Git revision:
 
 ```toml
 [dependencies]
-termrock = { git = "https://github.com/tailrocks/termrock", rev = "<commit>" }
+termrock = { git = "https://github.com/tailrocks/termrock-legacy", rev = "<commit>" }
 ```
 
 ## Quick start

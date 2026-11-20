@@ -2,7 +2,7 @@
 
 Date: 2026-09-02. Branch: `experimental/component-catalog-docs-2026-09-02`.
 Canonical reference: `/Users/donbeave/Projects/terminal-components-claude` (crate `junie-tui`).
-Target: `/Users/donbeave/Projects/tailrocks/termrock`.
+Target: `/Users/donbeave/Projects/tailrocks/termrock-legacy`.
 
 ## Mission
 

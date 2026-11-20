@@ -11,7 +11,7 @@ publish = false
 [workspace]
 
 [dependencies]
-termrock = { git = "https://github.com/tailrocks/termrock.git", rev = "5ff94ee117fd4a1b72fdd0d1b1847815055a93ac", version = "=0.11.0" }
+termrock = { git = "https://github.com/tailrocks/termrock-legacy.git", rev = "5ff94ee117fd4a1b72fdd0d1b1847815055a93ac", version = "=0.11.0" }
 termrock-head = { package = "termrock", path = "../../crates/termrock" }
 termrock-raster = { path = "../../crates/termrock-raster" }
 ratatui = "0.30.2"

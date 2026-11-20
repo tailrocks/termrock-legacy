@@ -1133,11 +1133,11 @@ The most important immediate decision is therefore not which widget to add next.
 
 > **TermRock is not another Ratatui widget crate. It is the source-owned design system for building exceptional terminal software.**
 
-[1]: https://raw.githubusercontent.com/tailrocks/termrock/main/crates/termrock/COMPONENTS.md "https://raw.githubusercontent.com/tailrocks/termrock/main/crates/termrock/COMPONENTS.md"
+[1]: https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/crates/termrock/COMPONENTS.md "https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/crates/termrock/COMPONENTS.md"
 [2]: https://ui.shadcn.com/docs/registry?utm_source=chatgpt.com "Introduction - Shadcn UI"
-[3]: https://raw.githubusercontent.com/tailrocks/termrock/main/README.md "https://raw.githubusercontent.com/tailrocks/termrock/main/README.md"
-[4]: https://github.com/tailrocks/termrock/tree/main/crates/termrock-lookbook "termrock/crates/termrock-lookbook at main · tailrocks/termrock · GitHub"
-[5]: https://raw.githubusercontent.com/tailrocks/termrock/main/crates/termrock/src/style/mod.rs "https://raw.githubusercontent.com/tailrocks/termrock/main/crates/termrock/src/style/mod.rs"
+[3]: https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/README.md "https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/README.md"
+[4]: https://github.com/tailrocks/termrock-legacy/tree/main/crates/termrock-lookbook "termrock/crates/termrock-lookbook at main · tailrocks/termrock-legacy · GitHub"
+[5]: https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/crates/termrock/src/style/mod.rs "https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/crates/termrock/src/style/mod.rs"
 [6]: https://awesometui.com/awards "https://awesometui.com/awards"
 [7]: https://x.ai/cli "https://x.ai/cli"
 [8]: https://ampcode.com/news/neo "https://ampcode.com/news/neo"
@@ -1158,5 +1158,5 @@ The most important immediate decision is therefore not which widget to add next.
 [23]: https://no-color.org/ "https://no-color.org/"
 [24]: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ "https://sw.kovidgoyal.net/kitty/keyboard-protocol/"
 [25]: https://github.com/charmbracelet/bubbletea/blob/main/README.md?utm_source=chatgpt.com "README.md - charmbracelet/bubbletea"
-[26]: https://raw.githubusercontent.com/tailrocks/termrock/main/docs/api/component-contracts.v2.json "TermRock catalog quality contracts"
+[26]: https://raw.githubusercontent.com/tailrocks/termrock-legacy/main/docs/api/component-contracts.v2.json "TermRock catalog quality contracts"
 [27]: https://github.com/xai-org/grok-build/tree/main/crates/codegen "https://github.com/xai-org/grok-build/tree/main/crates/codegen"

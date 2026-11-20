@@ -2,7 +2,7 @@
 
 Date: 2026-09-02. **Implemented** — see "Implemented" at the bottom of this file.
 Reference: `/Users/donbeave/Projects/terminal-components-claude` (crate `junie-tui`, bins `showcase` + `tablepro`).
-Target: `/Users/donbeave/Projects/tailrocks/termrock`.
+Target: `/Users/donbeave/Projects/tailrocks/termrock-legacy`.
 
 Every claim below marked **[verified]** was executed against the real repos in this session.
 
@@ -497,7 +497,7 @@ moves — the stale-`shots/` lesson):
 
 ```sh
 JUNIE=/Users/donbeave/Projects/terminal-components-claude
-TERMROCK=/Users/donbeave/Projects/tailrocks/termrock
+TERMROCK=/Users/donbeave/Projects/tailrocks/termrock-legacy
 cd "$JUNIE" && cargo build                          # 9 s
 cd "$TERMROCK/verify/junie"
 
@@ -682,7 +682,7 @@ verify/junie/
 ### 8.2 Exact commands
 
 ```sh
-cd /Users/donbeave/Projects/tailrocks/termrock/verify/junie
+cd /Users/donbeave/Projects/tailrocks/termrock-legacy/verify/junie
 
 bin/ref_capture.sh --all --out reference/scenes     # regenerate the reference side (~90 s for 45)
 bin/ref_capture.sh --bin showcase --page Tables --cols 120 --rows 40 showcase_tables_120x40
@@ -795,7 +795,7 @@ metrics first, per §3.
 ### 8.8 How a porting agent uses it
 
 ```sh
-cd /Users/donbeave/Projects/tailrocks/termrock/verify/junie
+cd /Users/donbeave/Projects/tailrocks/termrock-legacy/verify/junie
 python3 bin/run.py --list-scenes | grep pending      # 1. pick a scene
 sed -n '1,40p' reference/scenes/showcase_dialogs_120x40.txt   # 2. read the target
 #    3. implement, then make the scenario active in scenarios.json5

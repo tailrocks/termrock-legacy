@@ -9,20 +9,20 @@ Consume it from Git and pin the exact commit your application has reviewed.
 ## Add the dependency
 
 ```sh
-cargo add termrock --git https://github.com/tailrocks/termrock.git --rev 5283c2acf9154d0cfcd37b1ffe821c00faf90ea2
+cargo add termrock --git https://github.com/tailrocks/termrock-legacy.git --rev 5283c2acf9154d0cfcd37b1ffe821c00faf90ea2
 ```
 
 The command records the reviewed revision in `Cargo.toml`:
 
 ```toml
-termrock = { git = "https://github.com/tailrocks/termrock.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2" }
+termrock = { git = "https://github.com/tailrocks/termrock-legacy.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2" }
 ```
 
 Default features are empty. Enable `crossterm` only when TermRock should own the
 event adapter and scoped terminal-session lifecycle:
 
 ```toml
-termrock = { git = "https://github.com/tailrocks/termrock.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2", features = ["crossterm"] }
+termrock = { git = "https://github.com/tailrocks/termrock-legacy.git", rev = "5283c2acf9154d0cfcd37b1ffe821c00faf90ea2", features = ["crossterm"] }
 ```
 
 ## Compatibility baseline

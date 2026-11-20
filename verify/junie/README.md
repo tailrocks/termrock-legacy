@@ -161,7 +161,7 @@ source anchor.
 ## Porting a pending source state
 
 ```sh
-cd /Users/donbeave/Projects/tailrocks/termrock/verify/junie
+cd /Users/donbeave/Projects/tailrocks/termrock-legacy/verify/junie
 
 python3 bin/run.py --list-scenes | grep pending
 sed -n '1,40p' reference/scenes/showcase_dialogs_120x40.txt

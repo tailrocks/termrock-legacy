@@ -14,8 +14,8 @@ You are participating in an ongoing **pre-release API refactoring and hardening 
 
 You are working on:
 
-* Repository: `tailrocks/termrock`
-* PR: `https://github.com/tailrocks/termrock/pull/50`
+* Repository: `tailrocks/termrock-legacy`
+* PR: `https://github.com/tailrocks/termrock-legacy/pull/50`
 * Shared branch: `experimental/component-catalog-docs-2026-09-02`
 
 All accepted work must ultimately land on that branch and therefore in PR #50.

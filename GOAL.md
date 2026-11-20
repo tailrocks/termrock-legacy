@@ -4,7 +4,7 @@
 
 Transform:
 
-https://github.com/tailrocks/termrock
+https://github.com/tailrocks/termrock-legacy
 
 so that its entire TUI design system, components, widgets, examples, interactions, visual language, and behavior match:
 

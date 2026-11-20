@@ -1,7 +1,7 @@
 version = 1
 SPDX-PackageName = "termrock"
 SPDX-PackageSupplier = "Alexey Zhokhov <alexey@zhokhov.com>"
-SPDX-PackageDownloadLocation = "https://github.com/tailrocks/termrock"
+SPDX-PackageDownloadLocation = "https://github.com/tailrocks/termrock-legacy"
 
 [[annotations]]
 path = ["**"]

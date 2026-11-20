@@ -2,7 +2,7 @@
 
 Questions: Is docs.yml hand-written and therefore a proven in-repo pattern for a new PR job? What does the pinned tailrocks/velnor-actions ci-code.yml actually run, on which runners, with what extension points? What mise tasks exist and which does CI run today? What runner labels/OS are available per lane? What committed-artifact + regenerate-and-diff precedents already exist?
 Informs: jackin-termrock-parity
-Method: codebase read of /Users/donbeave/Projects/tailrocks/termrock + reference clone of https://github.com/tailrocks/velnor-actions checked out at d6ebc7863abf5864da0c1a8694d7828d517dbb3b ("feat(ci): default every fleet caller to Velnor (#47)") into scratchpad; `gh repo clone` + `git checkout`. All cited velnor-actions lines are from that SHA.
+Method: codebase read of /Users/donbeave/Projects/tailrocks/termrock-legacy + reference clone of https://github.com/tailrocks/velnor-actions checked out at d6ebc7863abf5864da0c1a8694d7828d517dbb3b ("feat(ci): default every fleet caller to Velnor (#47)") into scratchpad; `gh repo clone` + `git checkout`. All cited velnor-actions lines are from that SHA.
 Vetted: 2026-08-16
 
 ## Findings
@@ -27,7 +27,7 @@ Repo URL + commit for all claims below: https://github.com/tailrocks/velnor-acti
 
 ### Q3 — mise task inventory and what CI actually runs
 
-Full `[tasks.*]` inventory in `/Users/donbeave/Projects/tailrocks/termrock/mise.toml`:
+Full `[tasks.*]` inventory in `/Users/donbeave/Projects/tailrocks/termrock-legacy/mise.toml`:
 
 - `check` (mise.toml:23-30): `mise run docs-quality`; `cargo fmt --all -- --check`; `cargo clippy --workspace --all-targets --all-features --locked -- -D warnings`; `cargo nextest run --workspace --all-features --locked` (confidence: HIGH)
 - `ci` (mise.toml:32-33): `depends = ["check"]` — no commands of its own (confidence: HIGH)
